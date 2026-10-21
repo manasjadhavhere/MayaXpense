@@ -36,7 +36,8 @@ Import this folder as a standalone Git project. If deploying from a containing r
 - Search/filter/sort transactions, 25-row pagination, and future-dated entries. Future entries appear in Transactions, and affect account balances and analytics only when their date arrives.
 - Custom expense categories with names, icons, and colors.
 - Encrypted full backups and restore into a separate profile. Readable transaction CSV export, CSV example, and validated CSV import with exact duplicate skipping.
-- Light, dark, and system themes. Currency labels for INR, USD, EUR, GBP, AUD, CAD, SGD, AED; changing currency does not convert amounts.
+- Forest, Ocean, and Plum color themes, each with light, dark, and system appearance. Choose from the sign-in screen or workspace without losing form drafts. Preferences stay on this device. Currency labels for INR, USD, EUR, GBP, AUD, CAD, SGD, AED; changing currency does not convert amounts.
+- Readable rem-based type, 16px form inputs, 44px minimum action targets, compact phone sign-in, reflowing mobile transaction cards and fixed-size chart labels. Short screens, larger text, and open keyboards can still scroll naturally.
 - Responsive mobile navigation, receipt camera capture on supported browsers, optional vibration, swipe the page heading to switch months, keyboard shortcuts, and installable PWA with offline app-shell caching after first load.
 - Password changes, inactivity lock (5/15/30 minutes), safe rendering of user content, cross-tab conflict detection and browser Web Locks where supported, recoverable deletion via the Undo toast.
 
