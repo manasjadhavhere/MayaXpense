@@ -19,3 +19,9 @@
 - Forest, Ocean and Plum colors are selectable from sign-in, the workspace header and Settings, with Light, Dark and Follow device modes. Light Plum and Dark Ocean were visually checked. Appearance survived reload, and opening/changing appearance retained an unsaved settings display name and typed login username.
 - A synthetic local profile was created, an expense saved, the page reloaded, and the profile unlocked to confirm persistence. A second expense was saved with the static server stopped. Demo creation and transaction search also passed.
 - Browser logs were clear of application errors and warnings during online checks.
+
+## Brand asset update — 22 October 2026
+
+- Supplied main logo adapted into a transparent header lockup; supplied favicon used for browser, Apple touch and PWA icons. Source images are preserved under `assets/`.
+- Sign-in and dashboard logos load on mobile and desktop. Sign-in remains within a 320×569 CSS viewport, and the mobile dashboard has no horizontal page overflow.
+- `npm run check`, `npm run build` and `git diff --check` passed. Static build and service-worker cache include the new logo and favicon.

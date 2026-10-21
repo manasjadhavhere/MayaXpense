@@ -284,4 +284,22 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,te
  .auth-login .auth-form-inner>.muted{display:none}
  .auth-login .auth-tabs{margin:8px 0}
 }
+/* The supplied white wordmark keeps its contrast in every color theme. */
+.brand:has(.brand-logo){display:inline-flex;background:#101b18;border-radius:10px;padding:0 5px;letter-spacing:normal;line-height:0;max-width:100%;flex-shrink:0}
+.brand .brand-logo,.auth-story>.brand .brand-logo,.sidebar>.brand .brand-logo{display:block;width:174px;height:58px;object-fit:contain;max-width:100%}
+.sidebar>.brand:has(.brand-logo){margin:0 0 22px;width:100%}
+.breadcrumbs .mobile-brand{display:none}
+@media(max-width:960px){.sidebar>.brand .brand-logo{width:148px;height:50px}}
+@media(max-width:720px){
+ .auth-story>.brand:has(.brand-logo){width:max-content;padding:0 3px}
+ .auth-story>.brand .brand-logo,.breadcrumbs .mobile-brand .brand-logo{width:148px;height:50px}
+ .breadcrumbs .mobile-brand{display:inline-flex}
+ .breadcrumbs>span{display:none}
+ .auth-story{padding-left:16px;min-height:76px}
+ .auth-theme{top:16px;right:12px}
+}
+@media(max-width:370px){
+ .auth-story>.brand .brand-logo,.breadcrumbs .mobile-brand .brand-logo{width:136px;height:46px}
+}
+@media(max-width:720px) and (max-height:680px){.auth-story{min-height:68px}}
 @media print{.sidebar,.topbar,.heading-actions,.mobile-nav,.app-footer,#toast,.modal-root{display:none!important}.main-shell{margin:0}#main-content{padding:0}.panel,.stat-card{break-inside:avoid;box-shadow:none}.overview-hero{display:none}body{background:white;color:black}.dashboard-grid{grid-template-columns:1fr 1fr}}
